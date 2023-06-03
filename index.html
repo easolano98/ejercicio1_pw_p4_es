@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio U1</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/pokemon.js"></script>
+</head>
+<body>
+    <header><div><label id="puntuacion">Puntaje 0</label>
+        <label id="intentos">Intentos 0</label>
+        <h2>Selecciona el nombre de Pokemon correcto</h2></div>
+    
+    </header>
+
+    <nav></nav>
+    <section>
+        <div class="container">
+            <div class="pokemones">
+                <div>
+                    <img id="imagen" src="img/pnegro.jpg" alt="pokemon oculto">
+                    <button id="op1" onclick="mensajeErroneo()">keldeo-ordinary</button>
+                    <button id="op2" onclick="mensajeErroneo()">drilbur</button>
+                    <button id="op3" onclick="mensajeErroneo()">ninjask</button>
+                    <button id="op4" onclick="mensajeAcertado()">excadril</button>
+                </div>
+                <label id="mensaje" for=""></label>
+                <button id="reiniciar" onclick="reiniciar()">reiniciar</button>
+            </div>
+
+        </div>
+    </section>
+    <footer></footer>
+    
+</body>
+</html>

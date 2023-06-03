@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+}
+
+header div{
+    border: 1px dotted black;
+    margin: 5px;
+}
+
+header div label{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemones div button{
+    display: grid;
+    grid-template-columns: repeat(1 , 250px);
+    margin: 7px;
+    border-radius: 5px;
+    
+}
+
+.pokemones div{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+   
+}
+
+.pokemones label{
+    display: block;
+}
+
+header label{
+    display: block;
+    text-align: center;
+}
